@@ -21,4 +21,5 @@ colorThemes.forEach((themeOption) => {
   });
 });
 
+//so it retrieves theme on first load of the page
 document.onload = retrieveTheme();
